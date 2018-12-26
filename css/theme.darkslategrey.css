@@ -1,0 +1,75 @@
+/*style.css*/
+
+.navbar-fixed-top
+{
+	background: darkslategrey !important;
+}
+.navitem a{
+	color:#FFF !important;
+}
+.navbar-brand{
+	color:#FFF !important;
+}
+.pentagons {
+	color:darkslategrey;
+}
+.pentagon {
+    border-color: darkslategrey transparent;
+}
+.pentagon:before{
+    border-color: transparent transparent darkslategrey;
+}
+.theabout{
+	background-color:darkslategrey;
+}
+.themyskills{
+	color:darkslategrey;
+}
+.skillprogressbar{
+	background-color:darkslategrey;
+}
+.nav-tabs>div.active>a{
+	color:#009688 !important;
+	border-bottom: 3px solid darkslategrey !important;
+}
+.nav-tabs>div>a:hover{
+	color:#009688 !important;
+}
+.linkicon{
+	background-color: darkslategrey;
+}
+.linkicon:hover{
+	color:darkslategrey;
+}
+.contacttitle{
+	color:darkslategrey;
+}
+
+/*gallery.css*/
+.filter-button:hover,.filter-button.active{
+    background-color: darkslategrey;
+}
+.gallery_project:after{
+    background-color: darkslategrey;
+}
+
+/*timeline.css*/
+.timelinecontainer::after {
+    border: 4px solid darkslategrey;
+}
+
+/*pageloader.css*/
+.thepentagon{
+    border-color: darkslategrey transparent;
+}
+.thepentagon::before{
+    border-color: transparent transparent darkslategrey;
+}
+
+/*themeselector.css*/
+.themeselector{
+	color:darkslategrey;
+}
+.thecontacts{
+	background-color: darkslategrey;
+}
